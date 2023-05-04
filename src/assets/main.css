@@ -1,0 +1,12 @@
+@import "./base.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply h-card bg-card w-card m-card;
+}
+body {
+  background-color: #eee;
+}
